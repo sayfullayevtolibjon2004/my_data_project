@@ -9,7 +9,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
-
+print("salom")
 # 2. Ma'lumotlarni tozalash (Transformation)
 # Bo'sh (None) qiymatlarni 0 bilan to'ldiramiz
 df['Sotuv_Soni'] = df['Sotuv_Soni'].fillna(0)
